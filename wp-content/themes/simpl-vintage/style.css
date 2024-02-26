@@ -11,42 +11,64 @@ Template: OceanWP
 Version: 1.0.1
 
 */
-
-#wpforms-form-1123{padding: 40px 30px 40px 30px;
+/*Modification de style pour le formulaire de contact*/
+#wpforms-form-1123 {
+  padding: 40px 30px 40px 30px;
   background-color: #FFFFFF;
   border-radius: 10px 10px 10px 10px;
-  box-shadow: 0px 0px 25px 0px rgba(163.5, 163.5, 163.5, 0.13);font-family: "Montserrat", Sans-serif;}
-
-#wpforms-form-1123 input{background-color: #ffffff;
+  box-shadow: 0px 0px 25px 0px rgba(163.5, 163.5, 163.5, 0.13);
+  font-family: "Montserrat", Sans-serif;
+}
+#wpforms-form-1123 input {
+  background-color: #ffffff;
   border-color: #D8D8D8;
   border-width: 0px 0px 1px 0px;
   border-radius: 0px 0px 0px 0px;
-  padding: 6px 5px 7px 10px;}
-
-#wpforms-form-1123 button{
-	width:100%;background-color:#C39800;
+  padding: 6px 5px 7px 10px;
 }
-#wpforms-form-1123 button:hover{
-	background-color:#060957
+#wpforms-form-1123 button {
+  width: 100%;
+  background-color: #C39800;
 }
-
-h1, h2, h3, p, label{
-	color:#060957!important
+#wpforms-form-1123 button:hover {
+  background-color: #060957
 }
-
-.elementor-698 iframe{
+/*Modification de couleur titre, texte, et label du site*/
+h1, h2, h3, p, label {
+  color: #060957 !important
+}
+/*modification de la carte sur la page contact*/
+.elementor-698 iframe {
   border-radius: 10px 10px 10px 10px;
   box-shadow: 0px 0px 25px 0px rgba(163.5, 163.5, 163.5, 0.13);
 }
-
+/*modification de style sur la page galerie pour que les images soient identiques*/
+.gallery-item a {
+  width: 100%
+}
+.gallery-item img {
+  object-fit: cover;
+  width: 100%;
+  max-height: 182px;
+}
+@media only screen and (max-width: 990px) {
+  .gallery-item img {
+    max-height: 122px;
+  }
+}
 @media only screen and (max-width: 768px) {
-	.elementor-703 .elementor-element.elementor-element-41274e6b .wpr-mobile-toggle-line, .elementor-703 .elementor-element.elementor-element-41274e6b .wpr-mobile-toggle-line:hover, .elementor-703 .elementor-element.elementor-element-41274e6b .wpr-mobile-toggle:hover .wpr-mobile-toggle-line, .elementor-703 .elementor-element.elementor-element-41274e6b .wpr-mobile-nav-menu a:hover, .elementor-703 .elementor-element.elementor-element-41274e6b .wpr-mobile-nav-menu a.wpr-active-menu-item{
-		background-color:#060957
-	}
-	  .elementor-703 .elementor-element.elementor-element-6c9cea9e .wpr-logo-image {
+  .elementor-703 .elementor-element.elementor-element-41274e6b .wpr-mobile-toggle-line, .elementor-703 .elementor-element.elementor-element-41274e6b .wpr-mobile-toggle-line:hover, .elementor-703 .elementor-element.elementor-element-41274e6b .wpr-mobile-toggle:hover .wpr-mobile-toggle-line, .elementor-703 .elementor-element.elementor-element-41274e6b .wpr-mobile-nav-menu a:hover, .elementor-703 .elementor-element.elementor-element-41274e6b .wpr-mobile-nav-menu a.wpr-active-menu-item {
+    background-color: #060957
+  }
+  .elementor-703 .elementor-element.elementor-element-6c9cea9e .wpr-logo-image {
     max-width: 100%;
   }
-.elementor-698 iframe{
-		height: 300px
-	}
+  .elementor-698 iframe {
+    height: 300px
+  }
+}
+@media only screen and (max-width: 480px) {
+  .gallery-item img {
+    max-height: 240px;
+  }
 }
