@@ -34,7 +34,7 @@ Version: 1.0.1
   background-color: #060957
 }
 /*Modification de couleur titre, texte, et label du site*/
-h1, h2, h3, p, label {
+label {
   color: #060957 !important
 }
 /*modification de la carte sur la page contact*/
