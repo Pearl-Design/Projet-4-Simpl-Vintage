@@ -53,12 +53,37 @@ label {
 }
 
 /*page actualité modification image pour avoir la meme taille*/
-.wpr-grid-media-wrap{
-	padding:0 20px
+.anwp-pg-wrap .anwp-pg-post-teaser__thumbnail{
+	border-radius: 10px
 }
-.wpr-grid-image-wrap{
-	height: 180px;
+.anwp-pg-wrap .anwp-pg-post-teaser--layout-d .anwp-pg-post-teaser__bottom-meta .anwp-pg-icon{
+	display: none
 }
+.anwp-pg-wrap .anwp-pg-post-teaser--layout-d .anwp-pg-post-teaser__bottom-meta{
+	color:#C39800
+}
+.anwp-pg-wrap .anwp-pg-classic-grid .anwp-pg-post-teaser__content{
+	border-bottom: none
+}
+.anwp-pg-wrap .m-0:before{
+	content:"Le";
+	display: inline-block;
+	color:#C39800;
+	margin-right: 3px
+}
+.anwp-page-item .anwp-page-link--active {
+  background-color: #C39800;
+  border-color: #C39800;
+	
+}
+.anwp-page-link{
+	font-size: 12px;
+	font-weight: bold;
+	color:#060957
+}
+
+
+/*VERSION RESPONSIVE*/
 
 @media only screen and (max-width: 990px) {
   .gallery-item img {

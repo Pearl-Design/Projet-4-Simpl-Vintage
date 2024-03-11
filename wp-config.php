@@ -20,6 +20,7 @@
  * @package WordPress
  */
 
+
 // ** Réglages MySQL - Votre hébergeur doit vous fournir ces informations. ** //
 /** Nom de la base de données de WordPress. */
 define( 'DB_NAME', 'simplvintage' );
@@ -35,6 +36,10 @@ define( 'DB_HOST', 'localhost' );
 
 /** Jeu de caractères à utiliser par la base de données lors de la création des tables. */
 define( 'DB_CHARSET', 'utf8mb4' );
+
+
+
+
 
 /** Type de collation de la base de données.
   * N’y touchez que si vous savez ce que vous faites.
@@ -96,5 +101,3 @@ if ( !defined('ABSPATH') )
 /** Réglage des variables de WordPress et de ses fichiers inclus. */
 require_once(ABSPATH . 'wp-settings.php');
 
-//*Limite de taille mémoire*//
-define('WP_MEMORY_LIMIT', '256M');
